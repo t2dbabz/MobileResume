@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Mobile Resume</string>
+    <string name="about_me">About Me</string>
+    <string name="education">Education</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="certifications">Certifications</string>
+    <string name="projects">Projects</string>
 </resources>
