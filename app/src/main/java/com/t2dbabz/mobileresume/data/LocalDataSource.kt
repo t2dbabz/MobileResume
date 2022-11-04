@@ -9,6 +9,8 @@ object LocalDataSource {
         SocialMediaAccount("Twitter", "https://twitter.com/tundedon", R.drawable.twitter),
         SocialMediaAccount("Linkedin", "https://linkedin.com/in/babatunde-owoleke", R.drawable.linkedin),
         SocialMediaAccount("Github", "https://github.com/t2dbabz", R.drawable.github),
+        SocialMediaAccount("Gmail", "tundeowoleke1@gmail.com", R.drawable.gmail),
+        SocialMediaAccount("Phone", "+2348035909842", R.drawable.telephone),
     )
 
     private val interests = listOf(
@@ -19,7 +21,7 @@ object LocalDataSource {
         Skill("Programming Languages", listOf("Kotlin", "Java", "XML")),
         Skill("Android Technologies/Libraries", listOf("Jetpack Compose", "Retrofit", "Room", "Dagger Hilt",
             "Mockito", "Clean Architecture", "MVVM")),
-        Skill("Framework/Tools:", listOf("Android SDK", "Firebase", "Git", "Github","Material Design", "Figma")),
+        Skill("Framework/Tools", listOf("Android SDK", "Firebase", "Git", "Github","Material Design", "Figma")),
         Skill("Soft Skills", listOf("Teamwork", "Communication", "Critical Thinking"))
     )
 
@@ -103,7 +105,7 @@ object LocalDataSource {
             startDate = "Nov 2021",
             endDate = "Mar 2022",
             certificateLink = null,
-            schoolLogo = R.drawable.futminna_logo
+            schoolLogo = R.drawable.udacity_image
         ),
     )
 
