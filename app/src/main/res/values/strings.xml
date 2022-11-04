@@ -5,4 +5,7 @@
     <string name="work_experience">Work Experience</string>
     <string name="certifications">Certifications</string>
     <string name="projects">Projects</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="Interests">Interests</string>
 </resources>
