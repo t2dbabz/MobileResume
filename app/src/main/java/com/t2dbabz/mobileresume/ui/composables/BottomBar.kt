@@ -34,7 +34,10 @@ fun BottomBar(
                         launchSingleTop = true
                     }
                 },
-                icon = { Icon(painter = painterResource(id =destination.icon), contentDescription = stringResource(id = destination.label))},
+                icon = {
+                    Icon(
+                    painter = painterResource(id = destination.icon),
+                    contentDescription = stringResource(id = destination.label))},
                 label = { Text(text = stringResource(id = destination.label))}
             )
         }

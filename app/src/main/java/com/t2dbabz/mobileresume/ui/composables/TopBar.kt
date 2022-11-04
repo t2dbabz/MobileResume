@@ -2,13 +2,13 @@ package com.t2dbabz.mobileresume.ui.composables
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.width
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavBackStackEntry
 import com.t2dbabz.mobileresume.ui.screens.destinations.AboutMeScreenDestination
 import com.t2dbabz.mobileresume.ui.screens.destinations.Destination
@@ -27,7 +27,8 @@ fun TopBar(
         Text(
             text = destination.topBarTitle(navBackStackEntry),
             fontWeight = FontWeight.ExtraBold,
-            fontSize = 20.sp
+            style = MaterialTheme.typography.h6,
+            color = MaterialTheme.colors.onBackground
         )
     }
 }
@@ -36,9 +37,9 @@ fun TopBar(
 fun Destination.topBarTitle(navBackStackEntry: NavBackStackEntry?): String {
     return when (this) {
 
-      AboutMeScreenDestination,
-      EducationScreenDestination,
-      WorkExperienceDestination -> javaClass.simpleName.removeSuffix("Destination")
+      AboutMeScreenDestination -> "About Me"
+      EducationScreenDestination -> "Education"
+      WorkExperienceDestination -> "Work Experience"
 
     }
 }
