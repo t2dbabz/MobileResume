@@ -16,11 +16,11 @@ The project was built this way so that if there are new features to be added it 
 *  Data Layer
 
 ## Design
-This design for the app came about after going through design projects of sample resume app on behance and dribble. some of the designs
+The design for the app came about after going through design projects of sample resume apps on behance and dribble. some of the designs
 * [Design 1](https://dribbble.com/shots/15061439-Personal-Portfolio-Resume-CV-Mobile-Shots)
 * [Design 2](https://dribbble.com/shots/13670435-Job-Board)
 
- I finally decided to go with doing something simple. I decided on having three screens each holding a section of in the app. The sections are:
+ I finally decided to go with doing something simple. I decided on having three screens each holding a section of a resume in the app. The sections are:
 *  About Me
 *  Work Experience
 *  Education
@@ -39,7 +39,7 @@ The project leverages the following components and libraries :
 
 ##  Nice to have features to add if time would permit
 * Connecting the app to a backend service thereby making it possible to add or remove new data that should be diplayed on the app.
-* Prefrence settings
+* Prefrence settings for user prefered settings like language and theme/
 
 ## Prerequisites
 You need the following requirements to run this project
