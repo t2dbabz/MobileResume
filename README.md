@@ -28,6 +28,7 @@ This design for the app came about after going through design projects of sample
 The sections would be navigated to using the bottom navigation component.
 The approach of the app design was to be minimalistic and only highlight important information on the screen.
 
+
 ##  Libraries and Components
 
 The project leverages the following components and libraries :
@@ -38,6 +39,15 @@ The project leverages the following components and libraries :
 
 ##  Nice to have features to add if time would permit
 * Connecting the app to a backend service thereby making it possible to add or remove new data that should be diplayed on the app.
+* Prefrence settings
+
+## Prerequisites
+You need the following requirements to run this project
+
+*   Android Studio IDE Dolphin 2021.3.1 Patch 1
+*   Compose 1.2.1
+*   Android SDK v33
+*   Gradle 7.2.2
 
 ## Project Download
 If you want to try out the project on your device. you can download the project apk using this link
@@ -48,7 +58,7 @@ Setting up the Dark and Light Theme using Material Theme. I had to try out diffe
 I eventually settled for final color of the app. I still need to properly know how to make use of material theming in jetpack compose.
 
 ## Project Demo
-Here is an link to try out the app on Appetize
+Here is an link to try out the app on Appetize.io
 *  [Demo link](https://appetize.io/app/4xqygz3gbkmnch3ase7gt4442y)
 
 ## Screenshots
