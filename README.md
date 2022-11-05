@@ -34,7 +34,7 @@ The approach of the app design was to be minimalistic and only highlight importa
 The project leverages the following components and libraries :
 *  [Jetpack Compose](https://developer.android.com/jetpack/compose) - used to build the UI components.
 *  [Compose Destinations](https://composedestinations.rafaelcosta.xyz/) - used for compose navigation.
-*  [Flow Layout](https://github.com/google/accompanist/tree/main/flowlayout) - used to layout ui items on on the screen.
+*  [Flow Layout](https://github.com/google/accompanist/tree/main/flowlayout) - used to layout ui items on the screen.
 *  [ViewModel](https://developer.android.com/reference/androidx/lifecycle/ViewModel) - UI related data holder, lifecycle aware.
 
 ##  Nice to have features to add if time would permit
